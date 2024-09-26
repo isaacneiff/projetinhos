@@ -1,0 +1,163 @@
+/* RESET global */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin-block-end: 0;
+}
+
+
+#menu {
+
+    background-color: orange;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    padding: 20px;
+}
+
+span {
+    color: white;
+}
+
+.nav_menu {
+    margin-top: 30px;
+
+}
+
+.nav_menu a {
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+    font-weight: 700;
+
+    &:hover {
+        transition: 0.1s;
+        color: black;
+        background-color: aliceblue;
+        padding: 5px;
+        border-radius: 2px;
+
+    }
+}
+
+#content {
+    justify-content: right;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    width: 1300px;
+    margin: 0 auto;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+#container {
+    /*background-color: rgb(155, 155, 155);*/
+    width: 1300px;
+
+    padding: 20px;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    display: grid;
+    flex-direction: column;
+
+}
+
+.posts_1 {
+
+    background-color: aliceblue;
+    width: 700px;
+    padding: 20px;
+    margin-top: 10px;
+
+
+}
+
+.posts_1 h2 {
+    color: orange;
+
+}
+
+.posts_1 p {
+    margin-top: 05px;
+    margin-bottom: 05px;
+    font-size: 15px;
+
+}
+
+.rec_post {
+    background-color: aliceblue;
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    padding: 20px;
+    height: auto;
+
+}
+
+.rec_post h2 {
+    background-color: gainsboro;
+    border-radius: 02px;
+    width: 250px;
+    padding: 5px;
+}
+
+.rec_post p hr {
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
+
+hr {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: gold;
+
+}
+
+
+.posts {
+    margin-bottom: 5px;
+    font-size: 15px;
+    background-color: aliceblue;
+    width: 700px;
+    padding: 20px;
+    margin-left: 20px;
+
+}
+
+.posts h2 {
+    color: orange;
+
+}
+
+.posts p {
+    margin-top: 05px;
+    margin-bottom: 15px;
+    font-size: 15px;
+
+}
