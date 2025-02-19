@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    background-color: #444;
+    padding: 15px;
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.navbar a.active {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 900px;
+}
+
+.image-placeholder {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.text {
+    max-width: 400px;
+}
+
+.text h1 {
+    font-size: 50px;
+}
+
+.text p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    background-color: #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: auto;
+}
+
+.columns div {
+    max-width: 250px;
+}
+
+#inscricao h2 {
+
+    margin-bottom: 30px;
+
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #444;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
